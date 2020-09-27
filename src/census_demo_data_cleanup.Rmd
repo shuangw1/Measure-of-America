@@ -9,17 +9,21 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache.lazy = FALSE)
 
 library("tidyverse")
-library('scales')
 library('here')
+library('janitor')
+
+library('scales')
 ```
 
 ## Import Census Data
 
-Data downloaded from the Census website at https://data.census.gov/cedsci/table?q=Housing%20Units%20in%20the%20United%20States&t=Housing%3AHousing%20Units%3APopulations%20and%20People%3ARace%20and%20Ethnicity&g=0400000US06.050000&y=2019&tid=ACSDP1Y2019.DP05&hidePreview=true
+Data downloaded from the Census website at https://data.census.gov/cedsci/table?q=Housing%20Units%20in%20the%20United%20States&t=Housing%3AHousing%20Units%3APopulations%20and%20People%3ARace%20and%20Ethnicity&g=0400000US06.050000&y=2019&tid=ACSDP1Y2019.DP05&tp=true&hidePreview=true
 
 ```{r import_data}
 data <- read.csv(here("data/census-demographics", "ACSDP1Y2019.DP05_data_with_overlays_2020-09-26T140825.csv"), header = TRUE)
 ```
+
+Original data set has two rows of column headings, one for the codes, one for more readable names.
 
 ```{r review_data}
 dim(data)
@@ -27,3 +31,30 @@ colnames(data)
 str(data)
 View(data)
 ```
+
+Import the data set but skip the first row of code values.
+
+```{r reimport_data_skip_1}
+data_skip1 <- read_csv(here("data/census-demographics", "ACSDP1Y2019.DP05_data_with_overlays_2020-09-26T140825.csv"), skip = 1) %>% 
+  clean_names()
+
+data_skip1 %>% 
+  colnames()
+```
+
+Clean up the data to rename columns and select only potentially useful columns.
+
+```{r}
+# Remove margin of error, age grouping and voting age columns
+data_skip1 %>% 
+  rename(county = geographic_area_name) %>% 
+  select(!contains("margin_of_error") & !contains("_years") & !contains("voting_age")) %>% 
+  rename_with(~ str_remove(.x, "_total_population")) %>% 
+  colnames()
+
+# TODO: consolidate race columns, perhaps by combining hispanic columns?
+  
+
+```
+
+
