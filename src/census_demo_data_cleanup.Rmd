@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+author: "Christina Kim"
+date: "9/26/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache.lazy = FALSE)
+
+library("tidyverse")
+library('scales')
+library('here')
+```
+
+## Import Census Data
+
+Data downloaded from the Census website at https://data.census.gov/cedsci/table?q=Housing%20Units%20in%20the%20United%20States&t=Housing%3AHousing%20Units%3APopulations%20and%20People%3ARace%20and%20Ethnicity&g=0400000US06.050000&y=2019&tid=ACSDP1Y2019.DP05&hidePreview=true
+
+```{r import_data}
+data <- read.csv(here("data/census-demographics", "ACSDP1Y2019.DP05_data_with_overlays_2020-09-26T140825.csv"), header = TRUE)
+```
+
+```{r review_data}
+dim(data)
+colnames(data)
+str(data)
+View(data)
+```
