@@ -44,16 +44,43 @@ data_skip1 %>%
 
 Clean up the data to rename columns and select only potentially useful columns.
 
-```{r}
-# Remove margin of error, age grouping and voting age columns
-data_skip1 %>% 
-  rename(county = geographic_area_name) %>% 
-  select(!contains("margin_of_error") & !contains("_years") & !contains("voting_age")) %>% 
-  rename_with(~ str_remove(.x, "_total_population")) %>% 
-  colnames()
+Note: The 1977 OMB Race and Ethnic standards maintain that ethnicity (“Hispanic” or “Not Hispanic”) is a separate and distinct concept from race (“White,” “Black,” “American Indian or Alaskan Native,” or “Asian or Pacific Islander”.) Therefore individuals who are Hispanic may be of any Race. https://www2.census.gov/about/training-workshops/2018/2018-01-24-clmso-pres.pdf?
 
-# TODO: consolidate race columns, perhaps by combining hispanic columns?
-  
+```{r}
+data_skip1 %>% 
+  # Remove margin of error values
+  select(-contains("margin_of_error")) %>% 
+  select(id, geographic_area_name,
+         -contains("_1"),
+         # Remove age fields
+         !contains("_years") &
+         !contains("voting_age") &
+         # Include sex information
+         matches("sex_and_age_.*male$") |
+         # Include the Hispanic of Latino category for race and ethnicity (i.e., drop the "Race" category)
+         ends_with("hispanic_or_latino_of_any_race") |
+         ends_with("_alone") |
+         ends_with("not_hispanic_or_latino_two_or_more_races"),
+         # Remove sum rows (duplicate of other more detailed rows)
+         # !contains("_1"),
+         # Include housing unit count information in case it's helpful for housing analysis
+         estimate_total_housing_units
+         ) %>% 
+  # Clean up the county column
+  rename(county = geographic_area_name) %>% 
+  mutate(county = str_remove(county, ", California")) %>% 
+  filter(!county == "United States") %>% 
+  rename_with(~ str_remove_all(.x, "(_sex_and_age|_hispanic_or_latino_and_race)_total_population|_alone|_of_any_race|_not_hispanic_or_latino|_or_african_american") %>% 
+                str_replace("american_indian_and_alaska_native", "native_american") %>% 
+                str_replace("native_hawaiian_and_other_pacific_islander", "pacific_islander")
+              ) %>%
+  mutate(estimate_other_races = estimate_some_other_race + estimate_two_or_more_races,
+         percent_other_races = percent_some_other_race + percent_two_or_more_races,
+         .before = estimate_total_housing_units) %>% 
+  mutate(across(contains("percent"), ~ .x / 100)) %>% 
+  select(-contains("some_other_race"), -contains("two_or_more_races")) %>% 
+  write_csv(here("data/census-demographics", "county_sex_race_housing_units.csv"))
+
 
 ```
 
