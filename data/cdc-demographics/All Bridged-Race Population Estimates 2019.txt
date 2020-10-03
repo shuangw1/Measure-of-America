@@ -1,0 +1,91 @@
+"Notes"	"County"	"County Code"	Population
+	"Alameda County, CA"	"06001"	1671329
+	"Alpine County, CA"	"06003"	1129
+	"Amador County, CA"	"06005"	39752
+	"Butte County, CA"	"06007"	219186
+	"Calaveras County, CA"	"06009"	45905
+	"Colusa County, CA"	"06011"	21547
+	"Contra Costa County, CA"	"06013"	1153526
+	"Del Norte County, CA"	"06015"	27812
+	"El Dorado County, CA"	"06017"	192843
+	"Fresno County, CA"	"06019"	999101
+	"Glenn County, CA"	"06021"	28393
+	"Humboldt County, CA"	"06023"	135558
+	"Imperial County, CA"	"06025"	181215
+	"Inyo County, CA"	"06027"	18039
+	"Kern County, CA"	"06029"	900202
+	"Kings County, CA"	"06031"	152940
+	"Lake County, CA"	"06033"	64386
+	"Lassen County, CA"	"06035"	30573
+	"Los Angeles County, CA"	"06037"	10039107
+	"Madera County, CA"	"06039"	157327
+	"Marin County, CA"	"06041"	258826
+	"Mariposa County, CA"	"06043"	17203
+	"Mendocino County, CA"	"06045"	86749
+	"Merced County, CA"	"06047"	277680
+	"Modoc County, CA"	"06049"	8841
+	"Mono County, CA"	"06051"	14444
+	"Monterey County, CA"	"06053"	434061
+	"Napa County, CA"	"06055"	137744
+	"Nevada County, CA"	"06057"	99755
+	"Orange County, CA"	"06059"	3175692
+	"Placer County, CA"	"06061"	398329
+	"Plumas County, CA"	"06063"	18807
+	"Riverside County, CA"	"06065"	2470546
+	"Sacramento County, CA"	"06067"	1552058
+	"San Benito County, CA"	"06069"	62808
+	"San Bernardino County, CA"	"06071"	2180085
+	"San Diego County, CA"	"06073"	3338330
+	"San Francisco County, CA"	"06075"	881549
+	"San Joaquin County, CA"	"06077"	762148
+	"San Luis Obispo County, CA"	"06079"	283111
+	"San Mateo County, CA"	"06081"	766573
+	"Santa Barbara County, CA"	"06083"	446499
+	"Santa Clara County, CA"	"06085"	1927852
+	"Santa Cruz County, CA"	"06087"	273213
+	"Shasta County, CA"	"06089"	180080
+	"Sierra County, CA"	"06091"	3005
+	"Siskiyou County, CA"	"06093"	43539
+	"Solano County, CA"	"06095"	447643
+	"Sonoma County, CA"	"06097"	494336
+	"Stanislaus County, CA"	"06099"	550660
+	"Sutter County, CA"	"06101"	96971
+	"Tehama County, CA"	"06103"	65084
+	"Trinity County, CA"	"06105"	12285
+	"Tulare County, CA"	"06107"	466195
+	"Tuolumne County, CA"	"06109"	54478
+	"Ventura County, CA"	"06111"	846006
+	"Yolo County, CA"	"06113"	220500
+	"Yuba County, CA"	"06115"	78668
+"---"
+"Dataset: Bridged-Race Population Estimates 1990-2019"
+"Query Parameters:"
+"States: California (06)"
+"Yearly July 1st Estimates: 2019"
+"Group By: County"
+"Show Totals: False"
+"Show Zero Values: True"
+"Data Table: Default"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/bridged-race.html for more information."
+"---"
+"Query Date: Oct 2, 2020 9:40:00 PM"
+"---"
+"Suggested Citation: United States Department of Health and Human Services (US DHHS), Centers for Disease Control and Prevention"
+"(CDC), National Center for Health Statistics (NCHS), Bridged-Race Population Estimates, United States July 1st resident"
+"population by state, county, age, sex, bridged-race, and Hispanic origin. Compiled from 1990-1999 bridged-race intercensal"
+"population estimates (released by NCHS on 7/26/2004); revised bridged-race 2000-2009 intercensal population estimates (released"
+"by NCHS on 10/26/2012); and bridged-race Vintage 2019 (2010-2019) postcensal population estimates (released by NCHS on"
+"7/9/2020). Available on CDC WONDER Online Database. Accessed at http://wonder.cdc.gov/bridged-race-v2019.html on Oct 2, 2020"
+"9:40:00 PM"
+"---"
+Footnotes:
+"1. Estimates for 1990-1999 are bridged-race intercensal population estimates of the July 1 resident population. Estimates for"
+"2000-2009 are revised bridged-race intercensal estimates of the July 1 resident population. Estimates for 2010-2019 are"
+"bridged-race Vintage 2019 postcensal estimates of the July 1 resident population. These estimates were prepared by the Census"
+"Bureau in collaboration with NCHS."
+"---"
+Caveats:
+"1. County geography changes over time. New counties are created and old counties are deleted or their boundaries are modified."
+"The county codes and names for years 1990-1999 are based on Census 2000 geography; those for year 2000 and later are based on"
+"Census 2010 geography."
