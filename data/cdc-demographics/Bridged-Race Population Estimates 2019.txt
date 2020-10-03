@@ -1,0 +1,964 @@
+"Notes"	"County"	"County Code"	"Gender"	"Gender Code"	"Ethnicity"	"Ethnicity Code"	"Race"	"Race Code"	Population
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	8390
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	8384
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	9209
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	158461
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2939
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	293184
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	96504
+	"Alameda County, CA"	"06001"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	271011
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	8794
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	8078
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	8918
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	162821
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2509
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	272149
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	88554
+	"Alameda County, CA"	"06001"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	271424
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	26
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	0
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	36
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	125
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	7
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	8
+	"Alpine County, CA"	"06003"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	316
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	27
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	0
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	4
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	44
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	123
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	11
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	11
+	"Alpine County, CA"	"06003"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	389
+	"Amador County, CA"	"06005"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	171
+	"Amador County, CA"	"06005"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	44
+	"Amador County, CA"	"06005"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	45
+	"Amador County, CA"	"06005"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	1876
+	"Amador County, CA"	"06005"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	315
+	"Amador County, CA"	"06005"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	403
+	"Amador County, CA"	"06005"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	172
+	"Amador County, CA"	"06005"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	15088
+	"Amador County, CA"	"06005"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	251
+	"Amador County, CA"	"06005"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	85
+	"Amador County, CA"	"06005"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	89
+	"Amador County, CA"	"06005"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	3192
+	"Amador County, CA"	"06005"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	426
+	"Amador County, CA"	"06005"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	341
+	"Amador County, CA"	"06005"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1001
+	"Amador County, CA"	"06005"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	16253
+	"Butte County, CA"	"06007"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1370
+	"Butte County, CA"	"06007"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	369
+	"Butte County, CA"	"06007"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	467
+	"Butte County, CA"	"06007"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	16363
+	"Butte County, CA"	"06007"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2072
+	"Butte County, CA"	"06007"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	6159
+	"Butte County, CA"	"06007"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	2414
+	"Butte County, CA"	"06007"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	81499
+	"Butte County, CA"	"06007"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1324
+	"Butte County, CA"	"06007"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	392
+	"Butte County, CA"	"06007"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	436
+	"Butte County, CA"	"06007"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	17010
+	"Butte County, CA"	"06007"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1948
+	"Butte County, CA"	"06007"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	6061
+	"Butte County, CA"	"06007"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	2908
+	"Butte County, CA"	"06007"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	78394
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	229
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	71
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	62
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	2579
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	390
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	530
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	274
+	"Calaveras County, CA"	"06009"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	18923
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	208
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	98
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	62
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	2658
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	360
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	429
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	382
+	"Calaveras County, CA"	"06009"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	18650
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	169
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	62
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	47
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	5975
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	169
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	205
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	146
+	"Colusa County, CA"	"06011"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	3799
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	209
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	73
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	60
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	6423
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	153
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	156
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	175
+	"Colusa County, CA"	"06011"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	3726
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	5148
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	6028
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	6029
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	133079
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2201
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	118355
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	58370
+	"Contra Costa County, CA"	"06013"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	260129
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	5332
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	6096
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	5841
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	132867
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2081
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	106087
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	52998
+	"Contra Costa County, CA"	"06013"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	252885
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	352
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	39
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	51
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	1549
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1121
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	485
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	163
+	"Del Norte County, CA"	"06015"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	8866
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	443
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	35
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	66
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	3061
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1184
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	446
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	943
+	"Del Norte County, CA"	"06015"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	9008
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	676
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	330
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	188
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	11394
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	925
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	5958
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1090
+	"El Dorado County, CA"	"06017"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	76124
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	766
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	349
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	257
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	11418
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	945
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	4899
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1320
+	"El Dorado County, CA"	"06017"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	76204
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	13366
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	5464
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	7018
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	240090
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	3704
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	55004
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	24881
+	"Fresno County, CA"	"06019"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	150926
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	13491
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	5477
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	6695
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	245579
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	3437
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	53431
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	25933
+	"Fresno County, CA"	"06019"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	144605
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	261
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	78
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	89
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	5315
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	284
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	417
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	151
+	"Glenn County, CA"	"06021"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	7336
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	327
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	96
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	103
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	5810
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	234
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	394
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	210
+	"Glenn County, CA"	"06021"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	7288
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1063
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	191
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	206
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	6687
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	4349
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	2429
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1277
+	"Humboldt County, CA"	"06023"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	52115
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1073
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	226
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	267
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	6641
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	3939
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	2175
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1544
+	"Humboldt County, CA"	"06023"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	51376
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1870
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1070
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	957
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	73069
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	742
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1103
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	943
+	"Imperial County, CA"	"06025"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	8583
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1915
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1041
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	913
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	73253
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	652
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1291
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3636
+	"Imperial County, CA"	"06025"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	10177
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	293
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	20
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	40
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	1708
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1079
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	167
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	112
+	"Inyo County, CA"	"06027"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	5584
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	320
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	24
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	47
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	1778
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	941
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	145
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	161
+	"Inyo County, CA"	"06027"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	5620
+	"Kern County, CA"	"06029"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	10305
+	"Kern County, CA"	"06029"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	4208
+	"Kern County, CA"	"06029"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	5544
+	"Kern County, CA"	"06029"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	217459
+	"Kern County, CA"	"06029"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	3432
+	"Kern County, CA"	"06029"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	23461
+	"Kern County, CA"	"06029"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	23474
+	"Kern County, CA"	"06029"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	151285
+	"Kern County, CA"	"06029"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	10700
+	"Kern County, CA"	"06029"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	4151
+	"Kern County, CA"	"06029"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	5555
+	"Kern County, CA"	"06029"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	233623
+	"Kern County, CA"	"06029"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	3168
+	"Kern County, CA"	"06029"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	22731
+	"Kern County, CA"	"06029"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	27884
+	"Kern County, CA"	"06029"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	153222
+	"Kings County, CA"	"06031"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1911
+	"Kings County, CA"	"06031"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	608
+	"Kings County, CA"	"06031"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	984
+	"Kings County, CA"	"06031"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	35188
+	"Kings County, CA"	"06031"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	772
+	"Kings County, CA"	"06031"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	3372
+	"Kings County, CA"	"06031"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3251
+	"Kings County, CA"	"06031"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22512
+	"Kings County, CA"	"06031"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2200
+	"Kings County, CA"	"06031"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	768
+	"Kings County, CA"	"06031"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	1182
+	"Kings County, CA"	"06031"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	41673
+	"Kings County, CA"	"06031"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	796
+	"Kings County, CA"	"06031"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	3146
+	"Kings County, CA"	"06031"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	7307
+	"Kings County, CA"	"06031"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	27270
+	"Lake County, CA"	"06033"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	742
+	"Lake County, CA"	"06033"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	112
+	"Lake County, CA"	"06033"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	161
+	"Lake County, CA"	"06033"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	5859
+	"Lake County, CA"	"06033"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1008
+	"Lake County, CA"	"06033"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	585
+	"Lake County, CA"	"06033"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	734
+	"Lake County, CA"	"06033"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22991
+	"Lake County, CA"	"06033"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	831
+	"Lake County, CA"	"06033"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	110
+	"Lake County, CA"	"06033"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	162
+	"Lake County, CA"	"06033"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	6194
+	"Lake County, CA"	"06033"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	954
+	"Lake County, CA"	"06033"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	524
+	"Lake County, CA"	"06033"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	893
+	"Lake County, CA"	"06033"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22526
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	182
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	23
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	59
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	1377
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	437
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	352
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	243
+	"Lassen County, CA"	"06035"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	8874
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	346
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	93
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	143
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	3687
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	567
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	349
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	2404
+	"Lassen County, CA"	"06035"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	11437
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	69765
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	46102
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	59377
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	2272495
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	14037
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	832089
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	443155
+	"Los Angeles County, CA"	"06037"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	1353046
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	72608
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	45840
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	57591
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	2258192
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	12909
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	730365
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	399644
+	"Los Angeles County, CA"	"06037"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	1371892
+	"Madera County, CA"	"06039"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2822
+	"Madera County, CA"	"06039"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	588
+	"Madera County, CA"	"06039"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	911
+	"Madera County, CA"	"06039"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	42040
+	"Madera County, CA"	"06039"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1083
+	"Madera County, CA"	"06039"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1945
+	"Madera County, CA"	"06039"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3737
+	"Madera County, CA"	"06039"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	28316
+	"Madera County, CA"	"06039"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2951
+	"Madera County, CA"	"06039"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	616
+	"Madera County, CA"	"06039"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	836
+	"Madera County, CA"	"06039"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	41719
+	"Madera County, CA"	"06039"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	904
+	"Madera County, CA"	"06039"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1812
+	"Madera County, CA"	"06039"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1799
+	"Madera County, CA"	"06039"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	25248
+	"Marin County, CA"	"06041"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	972
+	"Marin County, CA"	"06041"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	587
+	"Marin County, CA"	"06041"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	450
+	"Marin County, CA"	"06041"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	18373
+	"Marin County, CA"	"06041"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	334
+	"Marin County, CA"	"06041"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	11177
+	"Marin County, CA"	"06041"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3074
+	"Marin County, CA"	"06041"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	97242
+	"Marin County, CA"	"06041"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1292
+	"Marin County, CA"	"06041"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	644
+	"Marin County, CA"	"06041"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	560
+	"Marin County, CA"	"06041"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	19282
+	"Marin County, CA"	"06041"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	431
+	"Marin County, CA"	"06041"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	8363
+	"Marin County, CA"	"06041"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4864
+	"Marin County, CA"	"06041"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	91181
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	103
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	9
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	32
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	871
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	235
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	156
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	163
+	"Mariposa County, CA"	"06043"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	6870
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	97
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	20
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	29
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	912
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	316
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	150
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	160
+	"Mariposa County, CA"	"06043"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	7080
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1155
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	157
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	164
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	9224
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2016
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1289
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	474
+	"Mendocino County, CA"	"06045"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	29249
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1335
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	138
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	220
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	9986
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1900
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	855
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	703
+	"Mendocino County, CA"	"06045"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	27884
+	"Merced County, CA"	"06047"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	3257
+	"Merced County, CA"	"06047"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1388
+	"Merced County, CA"	"06047"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	1737
+	"Merced County, CA"	"06047"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	76840
+	"Merced County, CA"	"06047"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	724
+	"Merced County, CA"	"06047"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	10503
+	"Merced County, CA"	"06047"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4495
+	"Merced County, CA"	"06047"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	38551
+	"Merced County, CA"	"06047"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	3416
+	"Merced County, CA"	"06047"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1450
+	"Merced County, CA"	"06047"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	1676
+	"Merced County, CA"	"06047"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	79678
+	"Merced County, CA"	"06047"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	704
+	"Merced County, CA"	"06047"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	10737
+	"Merced County, CA"	"06047"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4978
+	"Merced County, CA"	"06047"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	37546
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	106
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	9
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	29
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	486
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	158
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	58
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	54
+	"Modoc County, CA"	"06049"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	3493
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	111
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	9
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	27
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	514
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	139
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	66
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	119
+	"Modoc County, CA"	"06049"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	3463
+	"Mono County, CA"	"06051"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	93
+	"Mono County, CA"	"06051"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	14
+	"Mono County, CA"	"06051"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	24
+	"Mono County, CA"	"06051"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	1703
+	"Mono County, CA"	"06051"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	149
+	"Mono County, CA"	"06051"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	170
+	"Mono County, CA"	"06051"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	76
+	"Mono County, CA"	"06051"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	4557
+	"Mono County, CA"	"06051"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	104
+	"Mono County, CA"	"06051"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	9
+	"Mono County, CA"	"06051"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	31
+	"Mono County, CA"	"06051"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	1897
+	"Mono County, CA"	"06051"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	125
+	"Mono County, CA"	"06051"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	257
+	"Mono County, CA"	"06051"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	116
+	"Mono County, CA"	"06051"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	5119
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	5429
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3161
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2475
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	113768
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	850
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	15793
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4817
+	"Monterey County, CA"	"06053"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	66639
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	5711
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3119
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2467
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	121591
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	923
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	13500
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	7977
+	"Monterey County, CA"	"06053"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	65841
+	"Napa County, CA"	"06055"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	718
+	"Napa County, CA"	"06055"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	501
+	"Napa County, CA"	"06055"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	355
+	"Napa County, CA"	"06055"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	21654
+	"Napa County, CA"	"06055"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	354
+	"Napa County, CA"	"06055"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	6885
+	"Napa County, CA"	"06055"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1549
+	"Napa County, CA"	"06055"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	37193
+	"Napa County, CA"	"06055"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	744
+	"Napa County, CA"	"06055"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	491
+	"Napa County, CA"	"06055"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	352
+	"Napa County, CA"	"06055"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	22845
+	"Napa County, CA"	"06055"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	354
+	"Napa County, CA"	"06055"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	6092
+	"Napa County, CA"	"06055"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1889
+	"Napa County, CA"	"06055"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	35768
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	294
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	70
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	97
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	4218
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	565
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1035
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	415
+	"Nevada County, CA"	"06057"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	44058
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	305
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	86
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	100
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	4562
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	508
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	769
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	504
+	"Nevada County, CA"	"06057"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	42169
+	"Orange County, CA"	"06059"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	14877
+	"Orange County, CA"	"06059"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	12289
+	"Orange County, CA"	"06059"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	8964
+	"Orange County, CA"	"06059"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	503860
+	"Orange County, CA"	"06059"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	4425
+	"Orange County, CA"	"06059"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	372670
+	"Orange County, CA"	"06059"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	29984
+	"Orange County, CA"	"06059"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	661798
+	"Orange County, CA"	"06059"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	15500
+	"Orange County, CA"	"06059"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	12075
+	"Orange County, CA"	"06059"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	8890
+	"Orange County, CA"	"06059"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	504636
+	"Orange County, CA"	"06059"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	4307
+	"Orange County, CA"	"06059"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	335814
+	"Orange County, CA"	"06059"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	32564
+	"Orange County, CA"	"06059"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	653039
+	"Placer County, CA"	"06061"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1313
+	"Placer County, CA"	"06061"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1111
+	"Placer County, CA"	"06061"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	644
+	"Placer County, CA"	"06061"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	25769
+	"Placer County, CA"	"06061"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1433
+	"Placer County, CA"	"06061"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	19474
+	"Placer County, CA"	"06061"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4146
+	"Placer County, CA"	"06061"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	149951
+	"Placer County, CA"	"06061"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1327
+	"Placer County, CA"	"06061"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1086
+	"Placer County, CA"	"06061"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	708
+	"Placer County, CA"	"06061"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	25423
+	"Placer County, CA"	"06061"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1354
+	"Placer County, CA"	"06061"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	17155
+	"Placer County, CA"	"06061"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4755
+	"Placer County, CA"	"06061"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	142680
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	116
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	20
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	21
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	715
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	265
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	123
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	138
+	"Plumas County, CA"	"06063"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	8052
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	107
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	7
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	26
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	738
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	232
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	113
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	192
+	"Plumas County, CA"	"06063"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	7942
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	20860
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	11630
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	16199
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	565508
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	7336
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	95793
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	83702
+	"Riverside County, CA"	"06065"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	437506
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	21050
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	11231
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	15372
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	574182
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	7050
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	84593
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	84759
+	"Riverside County, CA"	"06065"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	433775
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	10318
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	9102
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	11872
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	151675
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	5574
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	150683
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	88861
+	"Sacramento County, CA"	"06067"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	365076
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	10194
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	8789
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	11128
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	153686
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	4985
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	138244
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	85605
+	"Sacramento County, CA"	"06067"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	346266
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	989
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	381
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	268
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	17396
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	170
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1193
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	386
+	"San Benito County, CA"	"06069"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	10577
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1006
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	401
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	313
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	17460
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	141
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	1014
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	464
+	"San Benito County, CA"	"06069"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	10649
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	21533
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	10670
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	17159
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	542377
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	5509
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	91791
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	97570
+	"San Bernardino County, CA"	"06071"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	307869
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	22162
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	10359
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	16614
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	545934
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	5234
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	83188
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	92778
+	"San Bernardino County, CA"	"06071"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	309338
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	17420
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	17387
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	16923
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	521464
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	8417
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	233703
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	82234
+	"San Diego County, CA"	"06073"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	760765
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	17929
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	16852
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	16828
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	515230
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	8981
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	208978
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	97159
+	"San Diego County, CA"	"06073"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	798060
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2585
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3812
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2782
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	54942
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1090
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	174065
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	23668
+	"San Francisco County, CA"	"06075"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	169384
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	3194
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3997
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	3110
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	59887
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1309
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	151731
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	25828
+	"San Francisco County, CA"	"06075"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	200165
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	6908
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	7958
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	5844
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	136729
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2205
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	68050
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	30312
+	"San Joaquin County, CA"	"06077"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	123949
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	7228
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	7869
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	5742
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	142056
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2106
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	64361
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	30216
+	"San Joaquin County, CA"	"06077"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	120615
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1532
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	755
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	550
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	28169
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	862
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	6151
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1745
+	"San Luis Obispo County, CA"	"06079"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	99970
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1581
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	797
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	600
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	30876
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	905
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	6009
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4348
+	"San Luis Obispo County, CA"	"06079"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	98261
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2976
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	4938
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2339
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	81306
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	769
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	132208
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	10148
+	"San Mateo County, CA"	"06081"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	152381
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	3272
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	4990
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2341
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	81816
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	732
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	118609
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	11042
+	"San Mateo County, CA"	"06081"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	156706
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	4401
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	2007
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	1702
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	93023
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1152
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	14191
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	4433
+	"Santa Barbara County, CA"	"06083"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	102345
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	4544
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	2031
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	1903
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	95924
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1221
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	12969
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	5643
+	"Santa Barbara County, CA"	"06083"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	99010
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	10552
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	9931
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	5452
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	212327
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2591
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	384500
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	24639
+	"Santa Clara County, CA"	"06085"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	301013
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	11073
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	9728
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	5608
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	217627
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2709
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	381554
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	28029
+	"Santa Clara County, CA"	"06085"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	320519
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2299
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1123
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	861
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	42106
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	713
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	8250
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1855
+	"Santa Cruz County, CA"	"06087"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	80830
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2379
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1145
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	861
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	42148
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	702
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	7325
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	2203
+	"Santa Cruz County, CA"	"06087"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	78413
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1058
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	224
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	220
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	7886
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2535
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	3269
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1446
+	"Shasta County, CA"	"06089"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	74969
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1041
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	209
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	231
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	8066
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2381
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	3315
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1775
+	"Shasta County, CA"	"06089"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	71455
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	7
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	8
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	8
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	162
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	26
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	12
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	16
+	"Sierra County, CA"	"06091"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	1257
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	20
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	2
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	13
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	161
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	28
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	12
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	29
+	"Sierra County, CA"	"06091"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	1244
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	369
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	50
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	55
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	2353
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1084
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	477
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	413
+	"Siskiyou County, CA"	"06093"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	17084
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	344
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	53
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	68
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	2452
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1025
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	426
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	537
+	"Siskiyou County, CA"	"06093"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	16749
+	"Solano County, CA"	"06095"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2392
+	"Solano County, CA"	"06095"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3351
+	"Solano County, CA"	"06095"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	3471
+	"Solano County, CA"	"06095"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	50378
+	"Solano County, CA"	"06095"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1272
+	"Solano County, CA"	"06095"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	42769
+	"Solano County, CA"	"06095"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	34102
+	"Solano County, CA"	"06095"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	87144
+	"Solano County, CA"	"06095"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	2445
+	"Solano County, CA"	"06095"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3282
+	"Solano County, CA"	"06095"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	3373
+	"Solano County, CA"	"06095"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	53411
+	"Solano County, CA"	"06095"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1271
+	"Solano County, CA"	"06095"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	36717
+	"Solano County, CA"	"06095"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	34560
+	"Solano County, CA"	"06095"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	87705
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	4154
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1282
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	1406
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	59059
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2260
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	14179
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	5021
+	"Sonoma County, CA"	"06097"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	165754
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	4334
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1331
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	1547
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	61841
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	2028
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	11327
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	5772
+	"Sonoma County, CA"	"06097"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	153041
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	4840
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3055
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2859
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	119072
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1759
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	19327
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	8673
+	"Stanislaus County, CA"	"06099"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	118119
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	4997
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3048
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2771
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	121426
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1731
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	18042
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	9235
+	"Stanislaus County, CA"	"06099"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	111706
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	826
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	440
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	337
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	13426
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	543
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	8531
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1285
+	"Sutter County, CA"	"06101"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	23280
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	902
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	434
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	396
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	14146
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	545
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	8327
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1484
+	"Sutter County, CA"	"06101"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22069
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	575
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	89
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	116
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	7302
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	788
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	546
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	372
+	"Tehama County, CA"	"06103"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22930
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	575
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	95
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	134
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	7890
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	715
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	524
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	484
+	"Tehama County, CA"	"06103"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	21949
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	78
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	7
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	23
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	339
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	285
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	105
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	67
+	"Trinity County, CA"	"06105"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	5067
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	92
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	6
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	29
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	333
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	328
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	115
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	104
+	"Trinity County, CA"	"06105"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	5307
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	5464
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	2158
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2603
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	140631
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1930
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	8849
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3333
+	"Tulare County, CA"	"06107"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	68238
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	5734
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	2230
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2480
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	144524
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1738
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	8062
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3695
+	"Tulare County, CA"	"06107"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	64526
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	299
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	66
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	78
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	2485
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	505
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	517
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	260
+	"Tuolumne County, CA"	"06109"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22055
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	296
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	78
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	78
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	3526
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	515
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	440
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	989
+	"Tuolumne County, CA"	"06109"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22291
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	7253
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3393
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	2988
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	168640
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1685
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	37797
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	8508
+	"Ventura County, CA"	"06111"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	197030
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	7849
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	3285
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	3164
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	169263
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	1617
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	32342
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	9773
+	"Ventura County, CA"	"06111"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	191419
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1749
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	1143
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	791
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	31874
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	799
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	19157
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3370
+	"Yolo County, CA"	"06113"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	54741
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	1612
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	998
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	725
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	31500
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	681
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	16926
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	3439
+	"Yolo County, CA"	"06113"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	50995
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	705
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	385
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	434
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	9720
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	864
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	3103
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	1715
+	"Yuba County, CA"	"06115"	"Female"	"F"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	21923
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"American Indian or Alaska Native"	"1002-5"	683
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Asian or Pacific Islander"	"A-PI"	399
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"Black or African American"	"2054-5"	439
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Hispanic or Latino"	"2135-2"	"White"	"2106-3"	10160
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"American Indian or Alaska Native"	"1002-5"	681
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Asian or Pacific Islander"	"A-PI"	3039
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"Black or African American"	"2054-5"	2085
+	"Yuba County, CA"	"06115"	"Male"	"M"	"Not Hispanic or Latino"	"2186-5"	"White"	"2106-3"	22333
+"---"
+"Dataset: Bridged-Race Population Estimates 1990-2019"
+"Query Parameters:"
+"Ethnicity: Hispanic or Latino; Not Hispanic or Latino"
+"Gender: Female; Male"
+"Race: American Indian or Alaska Native; Asian or Pacific Islander; Black or African American; White"
+"States: California (06)"
+"Yearly July 1st Estimates: 2019"
+"Group By: County; Gender; Ethnicity; Race"
+"Show Totals: False"
+"Show Zero Values: True"
+"Data Table: Default"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/bridged-race.html for more information."
+"---"
+"Query Date: Oct 2, 2020 9:21:35 PM"
+"---"
+"Suggested Citation: United States Department of Health and Human Services (US DHHS), Centers for Disease Control and Prevention"
+"(CDC), National Center for Health Statistics (NCHS), Bridged-Race Population Estimates, United States July 1st resident"
+"population by state, county, age, sex, bridged-race, and Hispanic origin. Compiled from 1990-1999 bridged-race intercensal"
+"population estimates (released by NCHS on 7/26/2004); revised bridged-race 2000-2009 intercensal population estimates (released"
+"by NCHS on 10/26/2012); and bridged-race Vintage 2019 (2010-2019) postcensal population estimates (released by NCHS on"
+"7/9/2020). Available on CDC WONDER Online Database. Accessed at http://wonder.cdc.gov/bridged-race-v2019.html on Oct 2, 2020"
+"9:21:35 PM"
+"---"
+Footnotes:
+"1. Estimates for 1990-1999 are bridged-race intercensal population estimates of the July 1 resident population. Estimates for"
+"2000-2009 are revised bridged-race intercensal estimates of the July 1 resident population. Estimates for 2010-2019 are"
+"bridged-race Vintage 2019 postcensal estimates of the July 1 resident population. These estimates were prepared by the Census"
+"Bureau in collaboration with NCHS."
+"---"
+Caveats:
+"1. County geography changes over time. New counties are created and old counties are deleted or their boundaries are modified."
+"The county codes and names for years 1990-1999 are based on Census 2000 geography; those for year 2000 and later are based on"
+"Census 2010 geography."

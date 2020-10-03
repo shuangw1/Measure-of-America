@@ -15,7 +15,7 @@ library('janitor')
 library('scales')
 ```
 
-## Import Census Data
+## Import Census Population Data
 
 Data downloaded from the Census website at https://data.census.gov/cedsci/table?q=Housing%20Units%20in%20the%20United%20States&t=Housing%3AHousing%20Units%3APopulations%20and%20People%3ARace%20and%20Ethnicity&g=0400000US06.050000&y=2019&tid=ACSDP1Y2019.DP05&tp=true&hidePreview=true
 
@@ -83,5 +83,120 @@ data_skip1 %>%
 
 
 ```
+
+## Import Census Housing Data
+
+Data downloaded from the Census website at https://data.census.gov/cedsci/table?q=housing%20in%20california&t=Housing%3AHousing%20Units&g=0400000US06.050000&y=2019&tid=ACSDP1Y2019.DP04&moe=false&tp=true&hidePreview=true
+
+```{r import_data_housing}
+data_housing <- read_csv(here("data/census-housing", "ACSDP1Y2019.DP04_data_with_overlays_2020-10-02T194057.csv"), skip = 1) %>% 
+  clean_names()
+
+data_housing
+```
+
+Original data set has two rows of column headings, one for the codes, one for more readable names.
+
+```{r review_data_housing}
+dim(data_housing)
+colnames(data_housing %>% select(ends_with("housing_units")))
+```
+
+
+```{r clean_export_data_housing}
+data_housing %>% 
+  # Remove margin of error values
+  select(-matches("margin_of_error")) %>% 
+  # Remove duplicate sum columns
+  select(-ends_with("_total_housing_units")) %>% 
+  # Remove percent columns wihtout actual values - shown as "(X)"
+  select(-(starts_with("percent") & where(is.character))) %>%
+  # Choose columns
+  select(id, geographic_area_name, matches("housing_occupancy_total_housing_units|vacancy_rate|units_in_structure|year_structure_built|median_rooms|occupants_per_room")) %>% 
+  # Clean up the county column
+  rename(county = geographic_area_name) %>% 
+  mutate(county = str_remove(county, ", California")) %>% 
+  filter(!county == "United States") %>% 
+  mutate(across(contains("percent"), ~ .x / 100)) %>% 
+  write_csv(here("data/census-housing", "census_housing_data_cleaned.csv"))
+```
+
+## CDC Wonder Race and Ethnicity Data
+
+Data from: https://wonder.cdc.gov/bridged-race-v2019.html
+
+Query Criteria:
+Ethnicity:	Hispanic or Latino; Not Hispanic or Latino
+Gender:	Female; Male
+Race:	American Indian or Alaska Native; Asian or Pacific Islander; Black or African American; White
+States:	California (06)
+Yearly July 1st Estimates:	2019
+Group By:	County; Gender; Ethnicity; Race
+Show Totals:	False
+Show Zero Values:	True
+Data Table:	Default
+
+
+```{r}
+data_cdc <- read_tsv(here("data/cdc-demographics", "Bridged-Race Population Estimates 2019.txt")) %>% 
+  clean_names()
+
+data_cdc %>% View()
+```
+
+```{r}
+data_cdc_trimmed <- data_cdc %>% 
+  # Remove notes
+  select(-notes) %>% 
+  drop_na() %>% 
+  # Clean up the county name
+  mutate(county = str_remove(county, ", CA"))
+```
+
+```{r cdc_gender}
+data_cdc_gender <- data_cdc_trimmed %>% 
+  group_by(county, county_code, gender, gender_code) %>% 
+  summarize(population = sum(population)) %>% 
+  pivot_wider(id_cols = c(county, county_code), names_from = gender, values_from = population)
+```
+
+Categorize group as Hispanic or Latino as so in ethnicity/race, otherwise use the race column value.
+
+```{r cdc_ethnicity_race}
+data_cdc_race <- data_cdc_trimmed %>% 
+  select(county, county_code, ethnicity, race, population) %>% 
+  mutate(ethnicity_race = if_else(ethnicity == "Hispanic or Latino", "Hispanic or Latino", race)) %>% 
+  group_by(county, county_code, ethnicity_race) %>% 
+  summarize(population = sum(population)) %>% 
+  select(county, county_code, ethnicity_race, population) %>% 
+  pivot_wider(id_cols = c(county, county_code), names_from = ethnicity_race, values_from = population)
+```
+
+
+```{r}
+data_cdc_all <- read_tsv(here("data/cdc-demographics", "All Bridged-Race Population Estimates 2019.txt")) %>% 
+  clean_names()
+
+data_cdc_all_trimmed <- data_cdc_all %>% 
+  # Remove notes
+  select(-notes) %>% 
+  drop_na() %>% 
+  # Clean up the county name
+  mutate(county = str_remove(county, ", CA")) %>% 
+  rename(total_population = population)
+```
+
+Merge all CDC clean data.
+
+```{r}
+data_cdc_all_trimmed %>% 
+  left_join(data_cdc_gender, by = c("county", "county_code")) %>% 
+  left_join(data_cdc_race, by = c("county", "county_code")) %>% 
+  # Create an ID column that matches the census data
+  mutate(id = paste0("0500000US", county_code), .before = county_code) %>% 
+  clean_names() %>% 
+  write_csv(here("data/cdc-demographics", "cdc_race_gender_population_data_cleaned.csv"))
+```
+
 
 
