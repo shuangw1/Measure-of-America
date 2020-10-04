@@ -45,3 +45,6 @@ docs/
 # translation temp files
 po/*~
 .Rproj.user
+
+# Desktop Services Store files created from using a MacOS Finder
+/*.DS_Store
