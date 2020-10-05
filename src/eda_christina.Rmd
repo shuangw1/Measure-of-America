@@ -1,0 +1,278 @@
+---
+title: 'Exploratory Data Analysis: Demographics, Housing and COVID-19'
+author: "Christina Kim"
+date: "10/4/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache.lazy = FALSE)
+
+library("tidyverse")
+library('here')
+library("scales")
+library("RColorBrewer") # Use display.brewer.all() to see all colors
+library("wesanderson")
+library("GGally")
+```
+
+## Summary Data Review
+
+```{r cars}
+df <- read.csv(here("data", "summary_data.csv"))
+head(df, 10)
+```
+
+There is a slight discrepancy between 2019 and 2020 population numbers but generally they are in the same ballpark.
+
+```{r}
+df %>% 
+  select(countyname, county_pop2019, county_pop_2020) %>% 
+  head(10)
+```
+
+County population varies quite a bit with Los Angeles county being much larger in population than any other counties in the state.
+
+```{r}
+df %>% 
+  ggplot(aes(x = reorder(countyname, county_pop2019), y = county_pop2019)) +
+  geom_bar(stat = "identity", fill = wes_palette(n = 1, "GrandBudapest1")) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title="Large variance in population between counties", subtitle="Los Angeles county has more poulation than any other counties in CA", x="Counties in California", y = " Population") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "population.png"), width = 10, height = 10)
+```
+
+
+### What is the demographics makeup in California?
+
+```{r}
+df_demos <- df %>% 
+  select(countyname, county_pop2019, percent_female:percent_white) 
+
+# Double check percentage add up to 100%
+df_demos %>% 
+  rowwise() %>% 
+  transmute(countyname, sum_races = sum(c_across(percent_american_indian_or_alaska_native:percent_white)))
+```
+
+With the exception of a handful of counties, the majority have a roughly even split between percent male and percent female residents.
+
+```{r}
+# Visualize sex percentages
+df_demos %>% 
+  select(countyname, matches("percent_(fe)?male")) %>% 
+  pivot_longer(c(percent_female, percent_male), names_to = "sex") %>% 
+  ggplot(aes(x = reorder(countyname, desc(countyname)), y = value, fill = sex)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_fill_manual(values = wes_palette(n = 2, name = "GrandBudapest1"),
+                    name = "Sex",
+                    labels = c("Female", "Male")) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title="Majority of counties have an even sex split", subtitle="Percentage female vs. percentage male by county", x="Counties in California", y = "% Population") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "population_sex.png"), width = 10, height = 10)
+```
+
+On the other hand, there is a large variance in race and ethnicity makeups by county. With White and Hispanic/Latino groups being the dominant group in a county most often, a handful of counties have a notable dominance by the Native American or Asian group. Black group is a minority in all counties.
+
+```{r}
+# Visualize race percentages
+df_demos %>% 
+  select(countyname, contains("percent") & !matches("percent_(fe)?male")) %>% 
+  pivot_longer(contains("percent"), names_to = "race_ethnicity") %>% 
+  ggplot(aes(x = reorder(countyname, desc(countyname)), y = value, fill = race_ethnicity)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_fill_manual(values = wes_palette(n = 5, name = "Darjeeling1"),
+                    name = "Race and Ethnicity",
+                    labels = c("Native American", "Asian or Pacific Islander", "Black", "Hispanic or Latino", "White")) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title="Large variance in race and ethnicity makeup by county", subtitle="Percentage of each race and ethnicity group by county", x="Counties in California", y = "% Population") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "population_race.png"), width = 10, height = 10)
+```
+
+```{r}
+df %>% 
+  drop_na(contains("income")) %>% 
+  ggplot(aes(x = reorder(countyname, Median.household.income.in.dollar), y = Median.household.income.in.dollar)) + 
+  geom_bar(stat = "identity", fill = wes_palette(n = 1, "GrandBudapest1")) +
+  scale_y_continuous(labels = scales::dollar) +
+  coord_flip() +
+  labs(title="Household income varies a lot from county to county", subtitle="The highest median income is almost 2x the lowest", x="Counties in California", y = "Median Household Income") +
+  theme_minimal()
+ggsave(here("output", "income.png"), width = 10, height = 10)
+```
+
+
+### How does the housing situation vary by county?
+
+Note: The housing data is not available for all counties, and the counties without data were omitted.
+
+```{r}
+df %>% 
+  drop_na() %>% 
+  ggplot(aes(x = reorder(countyname, total_housing_units), y = total_housing_units)) +
+  geom_bar(stat = "identity", fill = wes_palette(n = 1, "GrandBudapest1")) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title="Large variance in total housing units between counties", subtitle="Los Angeles county has more poulation than any other counties in CA", x="Counties in California", y = " Housing Units") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "housing_units.png"), width = 10, height = 10)
+```
+
+```{r}
+df %>% 
+  ggplot(aes(x = county_pop2019, y = total_housing_units)) +
+  geom_point() +
+  labs(title="Direct correlation between population and available housing units per county", subtitle="", x="Population", y = "Total Housing Units") +
+  theme_minimal()
+ggsave(here("output", "population_housing.png"), width = 10, height = 10)
+```
+
+
+```{r}
+df %>% 
+  drop_na() %>% 
+  ggplot(aes(x = reorder(countyname, estimate_rooms_total_housing_units_median_rooms), y = estimate_rooms_total_housing_units_median_rooms)) +
+  geom_bar(stat = "identity", fill = wes_palette(n = 1, "GrandBudapest1")) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title="Median number of rooms is the lowest in metropolitan areas", subtitle="SF, LA and Alameda counties have a much lower number of rooms (more crowded)", x="Counties in California", y = " Median Number of Rooms per Housing") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "housing_median_rooms.png"), width = 10, height = 10)
+```
+
+Majority of the housing units are relatively new across most of the counties. San Francisco and LA counties, however, have relatively more older housing units than other counties.
+
+```{r}
+# Visualize housing ages
+df %>% 
+  select(countyname, percent_old, percent_new) %>% 
+  drop_na() %>% 
+  pivot_longer(contains("percent"), names_to = "housing_age") %>% 
+  ggplot(aes(x = reorder(countyname, desc(countyname)), y = value, fill = housing_age)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_fill_manual(values = wes_palette(n = 2, name = "GrandBudapest1"),
+                    name = "Housing Age",
+                    labels = c("Built After 1960", "Built Before 1960")) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title="Majority of the housing units are relatively new across most of the counties", subtitle="San Francisco and LA counties, however, have higher % of older housing units", x="Counties in California", y = "% Housing Units") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "housing_new_old.png"), width = 10, height = 10)
+```
+
+```{r eval=FALSE}
+# Visualize housing structure percentages
+# TODO: Fix mutate + across
+df %>% 
+  drop_na() %>% 
+  select(countyname, contains("estimate_units_in_structure"), total_housing_units) %>% 
+  # mutate(across(contains("estimate_units"), ~.x / total_housing_units, .names = "percent_{.col}"))
+  mutate(across(contains("estimate_units"), ~ .data.col / .data$total_housing_units))
+  
+  xpivot_longer(contains("estimate_units_in_structure"), names_to = "units_in_structure") %>% 
+  ggplot(aes(x = reorder(countyname, desc(countyname)), y = value, fill = units_in_structure)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_fill_brewer(palette = "Dark2",
+                    name = "Units in Structure",
+                    labels = c("1 Unit Attached", "1 Unit Detached", "10 to 19 Units", "2 Units", "20 or More Units", "3 or 4 Units", "5 to 9 Units", "Boat, RV, Van, etc.", "Mobile Home")) +
+  labs(title="Large variance in race and ethnicity makeup by county", subtitle="Percentage of each race and ethnicity group by county", x="Counties in California", y = "% Housing Units") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "population_race.png"), width = 10, height = 10)
+```
+
+The number of occupants per room within a house, however, is dominantly 1 or less across all counties. A few counties, e.g., Monterey, have a higher percentage of housing units where the occupants per room is greater than 1, signaling a more populated housing environment.
+
+Note: Occupants per room columns are formatted as characters. 
+
+```{r}
+# Occupants per room
+# TODO: Can I sort by "1 or Less" bar value?
+df_occupancy <- df %>% 
+  select(countyname, contains("estimate_occupants_per_room_occupied_housing_units")) %>% 
+  mutate(across(contains("estimate_occupants_per_room_occupied_housing_units"), as.numeric)) %>% 
+  drop_na() %>% 
+  mutate(percent_1_00_or_less = estimate_occupants_per_room_occupied_housing_units_1_00_or_less / estimate_occupants_per_room_occupied_housing_units,
+         percent_1_01_to_1_50 = estimate_occupants_per_room_occupied_housing_units_1_01_to_1_50 / estimate_occupants_per_room_occupied_housing_units,
+         percent_1_51_or_more = estimate_occupants_per_room_occupied_housing_units_1_51_or_more / estimate_occupants_per_room_occupied_housing_units
+         ) 
+
+df_occupancy %>% 
+  pivot_longer(contains("percent"), names_to = "occupancy_rate") %>% 
+  ggplot(aes(x = reorder(countyname, desc(countyname)), y = value, fill = occupancy_rate)) +
+  geom_bar(position = "stack", stat = "identity") +
+  scale_fill_manual(values = wes_palette(n = 5, name = "Darjeeling1"),
+                    name = "Occupancy Rate",
+                    labels = c("1 or Less", "1.01 to 1.50", "1.51 or More")) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title="Majority have a 1 or less occupants per room ratio in all counties", subtitle="Some counties, e.g., Monterey, have a higher % of more than 1 occupants per room", x="Counties in California", y = "% Housing Units") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "housing_occupancy_rate.png"), width = 10, height = 10)
+```
+
+### COVID-19
+
+Surprisingly, some of the top counties by COVID confirmed cases and deaths per 100K are not the most-populated counties. Furthermore, ranking of confimed cases and deaths did not always align, e.g, LA county had the 9th highest number of confirmed cases per 100K but 3rd highest number of deaths from COVID, signaling either disparity in access to testing or a challenge with treating confirmed patients.
+
+Imperial county has an unusually high number of confirmed cases and deaths per 100K compared to other counties (LA Times article about Imperial County listing out possible factors: https://www.latimes.com/california/story/2020-07-28/imperial-county-coronavirus-rural-california).
+
+```{r}
+df_covid <- df %>% 
+  select(countyname, deaths_per_100k = death_rate, cases_per_100k = confirmed_case_rate) %>% 
+  drop_na()
+
+df_covid %>% 
+  ggplot(aes(x = reorder(countyname, cases_per_100k), y = cases_per_100k)) +
+  geom_bar(stat = "identity", fill = wes_palette(n = 1, "GrandBudapest1")) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title="COVID confirmed cases per 100K varies a lot between counties", subtitle="Top death counties and top confirmed cases counties are not exactly identical", x="Counties in California", y = " COVID Confirmed Cases per 100K People") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "covid_cases.png"), width = 10, height = 10)
+
+df_covid %>% 
+  ggplot(aes(x = reorder(countyname, deaths_per_100k), y = deaths_per_100k)) +
+  geom_bar(stat = "identity", fill = wes_palette(n = 1, "GrandBudapest1")) +
+  scale_y_continuous(labels = scales::comma) +
+  labs(title="COVID deaths per 100K varies a lot between counties", subtitle="Some had way more deaths per 100K than the others, even than the LA county", x="Counties in California", y = " COVID Deaths per 100K People") +
+  coord_flip() +
+  theme_minimal()
+ggsave(here("output", "covid_deaths.png"), width = 10, height = 10)
+
+df_covid %>% 
+  ggplot(aes(x = cases_per_100k, y = deaths_per_100k)) +
+  geom_point() +
+  labs(title="COVID deaths counts per 100K were correlated with the confirmed cases counts", subtitle="Some counties, however, observed a lower or higher death rate per case compared to other counties", x="Confimred COVID Cases per 100K People", y = " COVID Deaths per 100K People") +
+  theme_minimal()
+ggsave(here("output", "covid_cases_deaths.png"), width = 10, height = 10)
+
+```
+
+## Relationship between variables
+
+Population vs. housing units
+Population vs. median rooms
+Population vs. estimate_occupants_per_room_occupied_housing_units
+Population vs. COVID
+
+```{r}
+# Note: Can I get the housing data by race and ethnicity so I can color-code the plots by the race / ethniciy group?
+df %>% 
+  select(population = county_pop2019, 
+         number_rooms = estimate_rooms_total_housing_units_median_rooms, 
+         covid_deaths = death_rate, 
+         covid_cases = confirmed_case_rate) %>% 
+  drop_na() %>% 
+  ggpairs()
+```
+
+
+
+
