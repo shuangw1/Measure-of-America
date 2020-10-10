@@ -8,9 +8,12 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache.lazy = FALSE)
 
+library("tidycensus")
 library("tidyverse")
 library('here')
 library('janitor')
+
+census_api_key("4d304bfde4c98d6bf6a672d2721b858f7307569b")
 ```
 
 ## Import Census Population Data
@@ -196,5 +199,108 @@ data_cdc_all_trimmed %>%
   write_csv(here("data/cdc-demographics", "cdc_race_gender_population_data_cleaned.csv"))
 ```
 
+## Binary Categorization by County
 
+Using the Census ethnicity variable, 12 counties are dominantly Hispanic or Latino, while 46 counties are dominantly non-Hispanic or Latino.
+
+```{r categorize_ethnicity}
+data_cdc_ethnicity <- data_cdc_trimmed %>% 
+  group_by(county, county_code) %>% 
+  mutate(percent_population = population / sum(population)) %>% 
+  group_by(county, county_code, ethnicity) %>% 
+  summarise(percent_population = sum(percent_population)) %>% 
+  pivot_wider(c(county, county_code), names_from = ethnicity, values_from = percent_population) %>% 
+  clean_names() %>% 
+  mutate(dominant_ethnicity = if_else(hispanic_or_latino >= not_hispanic_or_latino, "Hispanic or Latino", "Not Hispanic or Latino")) %>% 
+  ungroup()
+  
+data_cdc_ethnicity %>% 
+  count(dominant_ethnicity)
+
+data_cdc_ethnicity
+```
+
+Using the Census race variable (i.e., not taking ethnicity into account), every county in California is dominantly white.
+
+```{r categorize_race}
+data_cdc_race_white <-
+  data_cdc_trimmed %>% 
+  group_by(county, county_code) %>% 
+  mutate(percent_population = population / sum(population)) %>% 
+  group_by(county, county_code, race) %>% 
+  summarise(percent_population = sum(percent_population)) %>% 
+  pivot_wider(c(county, county_code), names_from = race, values_from = percent_population) %>% 
+  clean_names() %>% 
+  rowwise() %>%
+  mutate(dominant_race_white = if_else(max(c_across(american_indian_or_alaska_native:white)) == white, "Dominantly white", "Dominantly non-white")) %>% 
+  ungroup()
+  
+data_cdc_race_white %>% 
+  count(dominant_race_white)
+```
+
+Following the earlier logic of counting the ethnicity group first (i.e., Hispanic or Latino vs. not), and assigning non-Hispanic or Latino population into race groups after, 40 counties are dominantly white (non-Hispanic white) while 18 counties are dominantly non-white (Hispanics and non-Hispanics who do not identify as white).
+
+Note this categorization counts only non-Hispanic white population as white population.
+
+```{r categorize_race_ethnicity_original_groups}
+data_cdc_race_hispanic_white <- data_cdc_race %>% 
+  # Create an ID column that matches the census data
+  mutate(id = paste0("0500000US", county_code), .before = county_code) %>% 
+  clean_names() %>% 
+  rowwise() %>%
+  mutate(dominant_race_white = if_else(max(c_across(american_indian_or_alaska_native:white)) == white, "Dominantly white (non-Hispanic only)", "Dominantly non-white")) %>% 
+  ungroup()
+  
+data_cdc_race_hispanic_white %>% 
+  count(dominant_race_white)
+```
+
+
+```{r}
+data_cdc_race_hispanic_white %>% 
+  select(county, id, county_code, dominant_race = dominant_race_white) %>% 
+  left_join(data_cdc_ethnicity %>% select(county, dominant_ethnicity)) %>% 
+  write_csv(here("data/cdc-demographics", "cdc_race_gender_population_data_categorized.csv"))
+```
+
+
+## Tidy Census Analysis
+
+Exploration only - decided not to use the package due to lack of 2019 data and not enough documentation for ACS data.
+
+```{r}
+census_vars <- load_variables(2010, "sf1", cache = TRUE)
+
+View(census_vars)
+```
+
+The API call for the ACS data returns an error for year 2019.
+
+```{r}
+ca <- get_acs(geography = "county",
+              variables = c(medincome = "B19013_001"),
+              state = "CA",
+              year = 2018)
+
+ca
+```
+
+How does the example in the package readme categorize race and ethnicity?
+
+Looking up the code P005003, it validates the example only picks out "Not Hispanic or Latino - White alone" combination as "white" and so on. https://api.census.gov/data/2010/dec/sf1/variables.html
+
+```{r}
+racevars <- c(White = "P005003",
+              Black = "P005004",
+              Asian = "P005006",
+              Hispanic = "P004003")
+
+counties <- get_decennial(geography = "county", variables = racevars,
+                  state = "CA",
+                  year = 2010,
+                  summary_var = "P001001")
+
+head(counties)
+```
 
