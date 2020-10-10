@@ -14,14 +14,27 @@ library("scales")
 library("RColorBrewer") # Use display.brewer.all() to see all colors
 library("wesanderson")
 library("GGally")
+library("janitor")
+library("ggcorrplot")
 ```
 
 ## Summary Data Review
 
-```{r cars}
-df <- read.csv(here("data", "summary_data.csv"))
-head(df, 10)
+```{r import_data}
+data <- read.csv(here("data", "summary_data.csv"))
+head(data, 10)
 ```
+
+```{r}
+data_race_categorized <- read.csv(here("data/cdc-demographics", "cdc_race_gender_population_data_categorized.csv"))
+
+df <- data %>% 
+  left_join(data_race_categorized %>% select(-county, -id), by = c("countyid" = "county_code"), keep = FALSE) %>% 
+  clean_names()
+
+colnames(df)
+```
+
 
 There is a slight discrepancy between 2019 and 2020 population numbers but generally they are in the same ballpark.
 
@@ -98,7 +111,7 @@ ggsave(here("output", "population_race.png"), width = 10, height = 10)
 ```{r}
 df %>% 
   drop_na(contains("income")) %>% 
-  ggplot(aes(x = reorder(countyname, Median.household.income.in.dollar), y = Median.household.income.in.dollar)) + 
+  ggplot(aes(x = reorder(countyname, median_household_income_in_dollar), y = median_household_income_in_dollar)) + 
   geom_bar(stat = "identity", fill = wes_palette(n = 1, "GrandBudapest1")) +
   scale_y_continuous(labels = scales::dollar) +
   coord_flip() +
@@ -257,6 +270,8 @@ ggsave(here("output", "covid_cases_deaths.png"), width = 10, height = 10)
 
 ## Relationship between variables
 
+Hypothesis for association:
+
 Population vs. housing units
 Population vs. median rooms
 Population vs. estimate_occupants_per_room_occupied_housing_units
@@ -273,6 +288,94 @@ df %>%
   ggpairs()
 ```
 
+```{r}
+df_selected <- df %>% 
+  select(county = countyname,
+         population = county_pop2019,
+         parks_usage = parks_usage_percent_during_covid,
+         workspace_usage = workspace_usage_percent_during_covid,
+         residential_usage = residential_usage_percent_during_covid,
+         multi_unit_housing = housing_units_in_multi_unit_structures_percent,
+         pp_household = persons_per_household,
+         income = median_household_income_in_dollar,
+         race = dominant_race,
+         pct_white = percent_white,
+         ethnicity = dominant_ethnicity,
+         covid_deaths = death_rate
+         ) %>% 
+  drop_na()
 
+colnames(df_selected)
+```
+
+Variables Associated with COVID Death Rate
+
+* Persons per household have a positive correlation with the COVID death rate (i.e., counties with households of more people are associated with a higher COVID death rate). This could be because families can spread the disease among themselves.
+* Percentage of white demograhpics within the county population has a negative correlation with the COVID death rate. This may indicate dominantly white counties are more likely to be better equipped to deal with COVID infection.
+* The increase in park usage since COVID is negatively correlated with the COVID death rate. This could indicate 1) counties with more parks have more resources to deal with COVID infection or more people who are active; 2) Outdoor time spent has a positive association with a lower COVID death rate either due to its positive impact on people's health (e.g., getting fresh air or preventing vitamin D defficiency); or 3) counties with a lower COVID death rate are more likely to spend time outside of their homes.
+* As we suspected, population is not correlated with the COVID death rate, suggesting there are disparities among counties that affected the COVID death rate.
+* Unlike our hypothesis, lower income, higher precentage of multi-unit housing (i.e., more chance of interacting with others in the building), lower residential usage/higher workspace usage did not have a positive associate with the COVID death rate.
+
+
+```{r corr_plot}
+corr <- round(cor(df_selected_renamed %>% select(is.numeric) %>% rename_with(~ str_replace_all(.x, "_", " ") %>% str_to_title())), 1)
+corr
+
+# Compute a matrix of correlation p-values
+p.mat <- cor_pmat(df_selected_renamed %>% select(is.numeric))
+p.mat
+  
+# Visualize with correlation coefficients
+# Add correlation significance level (X if not significant)
+ggcorrplot(corr,
+           type = "lower",
+           outline.color = "white",
+           colors = c("#6D9EC1", "white", "#E46726"),
+           lab = TRUE,
+           p.mat = p.mat,
+           insig = "blank",
+           sig.level = 0.05) +
+  labs(title = "Pearson correlation matrix among selected variables", subtitle="Shown only if the correlation p-value is less than 0.05")
+ggsave(here("output", "corr_matrix.png"), width = 10, height = 10)
+```
+
+```{r plot_race_ethnicity}
+df_selected %>% 
+  select(race, covid_deaths) %>% 
+  ggplot(aes(x = race, y = covid_deaths / 100)) + 
+  geom_jitter(width = 0.1) +
+  stat_summary(fun.y=median, geom="point", shape=18,
+                 size=3, color="red") +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title="Counties with dominantly non-whte population have a higher COVID death rate", subtitle="(Median values highlighted in red)", x="Dominant Population Within County", y = "COVID Death Rate per 100K People") +
+  theme_minimal()
+ggsave(here("output", "covid_race.png"), width = 10, height = 10)
+
+df_selected %>% 
+  select(ethnicity, covid_deaths) %>% 
+  ggplot(aes(x = ethnicity, y = covid_deaths / 100)) + 
+  geom_jitter(width = 0.1) +
+  stat_summary(fun.y=median, geom="point", shape=18,
+                 size=3, color="red") +
+  scale_y_continuous(labels = scales::percent) +
+  labs(title="Counties with dominantly Hispanic or Latino population have a higher COVID death rate", subtitle="(Median values highlighted in red)", x="Dominant Population Within County", y = "COVID Death Rate per 100K People") +
+  theme_minimal()
+ggsave(here("output", "covid_ethnicity.png"), width = 10, height = 10)
+```
+
+```{r fit_lm}
+# Fit a linear regression model
+df_lm <- df_selected %>% 
+  select(race, pp_household, parks_usage, covid_deaths)
+
+lm.fit = lm(covid_deaths ~ race + pp_household + parks_usage, data = df_lm)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ race + parks_usage, data = df_lm)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~., data = df_selected %>% select(-county))
+summary(lm.fit)
+```
 
 
