@@ -298,9 +298,9 @@ df_selected <- df %>%
          multi_unit_housing = housing_units_in_multi_unit_structures_percent,
          pp_household = persons_per_household,
          income = median_household_income_in_dollar,
-         race = dominant_race,
+         race = dominant_race_y,
          pct_white = percent_white,
-         ethnicity = dominant_ethnicity,
+         ethnicity = dominant_ethnicity_y,
          covid_deaths = death_rate
          ) %>% 
   drop_na()
@@ -318,11 +318,11 @@ Variables Associated with COVID Death Rate
 
 
 ```{r corr_plot}
-corr <- round(cor(df_selected_renamed %>% select(is.numeric) %>% rename_with(~ str_replace_all(.x, "_", " ") %>% str_to_title())), 1)
+corr <- round(cor(df_selected %>% select(is.numeric) %>% rename_with(~ str_replace_all(.x, "_", " ") %>% str_to_title())), 1)
 corr
 
 # Compute a matrix of correlation p-values
-p.mat <- cor_pmat(df_selected_renamed %>% select(is.numeric))
+p.mat <- cor_pmat(df_selected %>% select(is.numeric))
 p.mat
   
 # Visualize with correlation coefficients
@@ -348,7 +348,11 @@ df_selected %>%
                  size=3, color="red") +
   scale_y_continuous(labels = scales::percent) +
   labs(title="Counties with dominantly non-whte population have a higher COVID death rate", subtitle="(Median values highlighted in red)", x="Dominant Population Within County", y = "COVID Death Rate per 100K People") +
+  # For the presentation deck
+  # labs(title="COVID Death Rates by Race", subtitle="(Median values highlighted in red)", x="Largest Population Within County", y = "COVID Death Rate per 100K People") +
+  # theme(text = element_text(size=15)) +
   theme_minimal()
+  
 ggsave(here("output", "covid_race.png"), width = 10, height = 10)
 
 df_selected %>% 
@@ -363,19 +367,44 @@ df_selected %>%
 ggsave(here("output", "covid_ethnicity.png"), width = 10, height = 10)
 ```
 
+```{r}
+df_selected %>% 
+  arrange(desc(covid_deaths)) %>% 
+  head(10) %>% 
+  select(county, race, covid_deaths_per_100k = covid_deaths)
+```
+
+In the correlation matrix, we saw the persons per household had a negative association with the COVID death rate. After fitting a larger logistic model with all independent variables that were available, we found that this trend was introduced via confounding effects of other variables such as household income.
+
 ```{r fit_lm}
-# Fit a linear regression model
-df_lm <- df_selected %>% 
-  select(race, pp_household, parks_usage, covid_deaths)
-
-lm.fit = lm(covid_deaths ~ race + pp_household + parks_usage, data = df_lm)
-summary(lm.fit)
-
-lm.fit = lm(covid_deaths ~ race + parks_usage, data = df_lm)
-summary(lm.fit)
-
+# Fit a linear regression model: Association "after" accounting for other variables
 lm.fit = lm(covid_deaths ~., data = df_selected %>% select(-county))
 summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ race, data = df_selected)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ race + pct_white, data = df_selected)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ pct_white + income, data = df_selected)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ pct_white + income + parks_usage, data = df_selected)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ income + parks_usage, data = df_selected)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ race + income + parks_usage, data = df_selected)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ ethnicity + income + parks_usage, data = df_selected)
+summary(lm.fit)
+
+lm.fit = lm(covid_deaths ~ race + income + parks_usage + pp_household, data = df_selected)
+summary(lm.fit)
+
 ```
 
 
