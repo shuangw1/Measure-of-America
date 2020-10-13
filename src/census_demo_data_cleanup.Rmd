@@ -158,7 +158,8 @@ data_cdc_trimmed <- data_cdc %>%
 data_cdc_gender <- data_cdc_trimmed %>% 
   group_by(county, county_code, gender, gender_code) %>% 
   summarize(population = sum(population)) %>% 
-  pivot_wider(id_cols = c(county, county_code), names_from = gender, values_from = population)
+  pivot_wider(id_cols = c(county, county_code), names_from = gender, values_from = population) %>% 
+  ungroup()
 ```
 
 Categorize group as Hispanic or Latino as so in ethnicity/race, otherwise use the race column value.
@@ -170,7 +171,18 @@ data_cdc_race <- data_cdc_trimmed %>%
   group_by(county, county_code, ethnicity_race) %>% 
   summarize(population = sum(population)) %>% 
   select(county, county_code, ethnicity_race, population) %>% 
-  pivot_wider(id_cols = c(county, county_code), names_from = ethnicity_race, values_from = population)
+  pivot_wider(id_cols = c(county, county_code), names_from = ethnicity_race, values_from = population) %>% 
+  ungroup()
+```
+
+```{r}
+data_cdc_race %>% 
+  rowwise() %>% 
+  clean_names() %>% 
+  select(american_indian_or_alaska_native:white) %>%
+  mutate(row_max = names(.)[which.max(c_across(everything()))]) %>% 
+  count(row_max)
+
 ```
 
 
