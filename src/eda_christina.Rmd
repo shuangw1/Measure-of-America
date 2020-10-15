@@ -200,7 +200,7 @@ df %>%
 ggsave(here("output", "population_race.png"), width = 10, height = 10)
 ```
 
-The number of occupants per room within a house, however, is largely 1 or less across all counties. A few counties, e.g., Monterey, have a higher percentage of housing units where the occupants per room is greater than 1, signaling a more populated housing environment.
+The number of occupants per room within a house, however, is typically 1 or less across all counties. A few counties, e.g., Monterey, have a higher percentage of housing units where the occupants per room is greater than 1, signaling a more populated housing environment.
 
 Note: Occupants per room columns are formatted as characters. 
 
@@ -304,7 +304,7 @@ df_selected <- df %>%
          covid_deaths = death_rate
          ) %>% 
   drop_na() %>% 
-  mutate(race = if_else(str_detect(race, "non-white"), "Largely non-white", "Largely white")
+  mutate(race = if_else(str_detect(race, "non-white"), "Majority non-white", "Majority white")
   )
 
 colnames(df_selected)
@@ -313,7 +313,7 @@ colnames(df_selected)
 Variables Associated with COVID Death Rate
 
 * Persons per household have a positive correlation with the COVID death rate (i.e., counties with households of more people are associated with a higher COVID death rate). This could be because families can spread the disease among themselves.
-* Percentage of white demograhpics within the county population has a negative correlation with the COVID death rate. This may indicate largely white counties are more likely to be better equipped to deal with COVID infection.
+* Percentage of white demograhpics within the county population has a negative correlation with the COVID death rate. This may indicate majority white counties are more likely to be better equipped to deal with COVID infection.
 * The increase in park usage since COVID is negatively correlated with the COVID death rate. This could indicate 1) counties with more parks have more resources to deal with COVID infection or more people who are active; 2) Outdoor time spent has a positive association with a lower COVID death rate either due to its positive impact on people's health (e.g., getting fresh air or preventing vitamin D defficiency); or 3) counties with a lower COVID death rate are more likely to spend time outside of their homes.
 * As we suspected, population is not correlated with the COVID death rate, suggesting there are disparities among counties that affected the COVID death rate.
 * Unlike our hypothesis, lower income, higher precentage of multi-unit housing (i.e., more chance of interacting with others in the building), lower residential usage/higher workspace usage did not have a positive associate with the COVID death rate.
@@ -344,13 +344,13 @@ ggsave(here("output", "corr_matrix.png"), width = 10, height = 10)
 ```{r plot_race_ethnicity}
 df_selected %>% 
   select(race, covid_deaths) %>% 
-  mutate(race = if_else(str_detect(race, "non-white"), "Largely non-white (n = 18)", "Largely white (n = 40)")) %>% 
+  mutate(race = if_else(str_detect(race, "non-white"), "Majority non-white (n = 18)", "Majority white (n = 40)")) %>% 
   ggplot(aes(x = race, y = covid_deaths / 100)) + 
   geom_jitter(width = 0.1) +
   stat_summary(fun.y=median, geom="point", shape=18,
                  size=3, color="red") +
   scale_y_continuous(labels = scales::percent) +
-  # labs(title="Counties with largely non-whte population have a higher COVID death rate", subtitle="(Median values highlighted in red)", x="Dominant Population Within County", y = "COVID Death Rate per 100K People") +
+  # labs(title="Counties with majority non-whte population have a higher COVID death rate", subtitle="(Median values highlighted in red)", x="Dominant Population Within County", y = "COVID Death Rate per 100K People") +
   # For the presentation deck
   labs(title="COVID Death Rates by Race", subtitle="(Median values highlighted in red)", x="Largest Population Within County", y = "COVID Death Rate per 100K People") +
   theme(text = element_text(size=15)) +
@@ -365,7 +365,7 @@ df_selected %>%
   stat_summary(fun.y=median, geom="point", shape=18,
                  size=3, color="red") +
   scale_y_continuous(labels = scales::percent) +
-  labs(title="Counties with largely Hispanic or Latino population have a higher COVID death rate", subtitle="(Median values highlighted in red)", x="Dominant Population Within County", y = "COVID Death Rate per 100K People") +
+  labs(title="Counties with majority Hispanic or Latino population have a higher COVID death rate", subtitle="(Median values highlighted in red)", x="Dominant Population Within County", y = "COVID Death Rate per 100K People") +
   theme_minimal()
 ggsave(here("output", "covid_ethnicity.png"), width = 10, height = 10)
 ```
