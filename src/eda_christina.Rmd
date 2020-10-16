@@ -181,17 +181,15 @@ ggsave(here("output", "housing_new_old.png"), width = 10, height = 10)
 
 ```{r eval=FALSE}
 # Visualize housing structure percentages
-# TODO: Fix mutate + across
 df %>% 
   drop_na() %>% 
   select(countyname, contains("estimate_units_in_structure"), total_housing_units) %>% 
-  # mutate(across(contains("estimate_units"), ~.x / total_housing_units, .names = "percent_{.col}"))
-  mutate(across(contains("estimate_units"), ~ .data.col / .data$total_housing_units))
-  
-  xpivot_longer(contains("estimate_units_in_structure"), names_to = "units_in_structure") %>% 
+  mutate(across(contains("estimate_units"), ~ as.numeric(.x) / total_housing_units)) %>% 
+  rename_with(~ str_replace(.x, "estimate_units", "pct_units")) %>%
+  pivot_longer(contains("pct_units_in_structure"), names_to = "units_in_structure") %>% 
   ggplot(aes(x = reorder(countyname, desc(countyname)), y = value, fill = units_in_structure)) +
   geom_bar(position = "stack", stat = "identity") +
-  scale_fill_brewer(palette = "Dark2",
+  scale_fill_brewer(palette = "Set3",
                     name = "Units in Structure",
                     labels = c("1 Unit Attached", "1 Unit Detached", "10 to 19 Units", "2 Units", "20 or More Units", "3 or 4 Units", "5 to 9 Units", "Boat, RV, Van, etc.", "Mobile Home")) +
   labs(title="Large variance in race and ethnicity makeup by county", subtitle="Percentage of each race and ethnicity group by county", x="Counties in California", y = "% Housing Units") +
