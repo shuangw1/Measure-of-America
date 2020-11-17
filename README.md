@@ -1,5 +1,5 @@
 # Measure-of-America
-Data Science for All Women's Summit project - Meng Cheng, Elizabeth Hocking, Christina Kim, Chinyere Okoh, Shuang Wu
+Meng Cheng, Elizabeth Hocking, Christina Kim, Chinyere Okoh, Shuang Wu
 
 Measure for America are researching and writing the third edition to “A Portrait of California” in the midst of three global emergencies: the COVID-19 epidemic, an international economic downturn, and climate change; California will bear the brunt of all three of these historic pressures in the midst of a national movement to dismantle institutional racism.
 
@@ -7,4 +7,4 @@ Measure for America’s past Portraits have driven local change in California, p
 
 In this project, we will investigate data at the relationships between housing, COVID-19 rates and mobility, in order to identify geographic priority areas and racial, ethnic, and resource inequities in the state.
 
-This project is awarded as the best data visualization project in the summit.
+
