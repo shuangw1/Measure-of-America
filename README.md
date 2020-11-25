@@ -5,6 +5,6 @@ Measure for America are researching and writing the third edition to “A Portra
 
 Measure for America’s past Portraits have driven local change in California, promoting health equity, educational opportunity, and economic mobility in places like Sonoma County. The previous report released in 2014 shed light on the huge disparities within the state and gained attention in the news. Now, Measure of America has the opportunity, once again, to guide California change-makers on the road to recovery by mapping the unprecedented and overlapping impact of fire, disease, and economic inequality on its residents.  We will focus on one of the emergencies, COVID-19, to contribute to the publication.
 
-In this project, we will investigate data at the relationships between housing, COVID-19 rates and mobility, in order to identify geographic priority areas and racial, ethnic, and resource inequities in the state.
+In this project, we investigate data at the relationships between housing, COVID-19 rates and mobility, in order to identify geographic priority areas and racial, ethnic, and resource inequities in the state.
 
 
