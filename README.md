@@ -1,5 +1,5 @@
 # Measure-of-America
-Data Science Project - Meng Cheng, Elizabeth Hocking, Christina Kim, Chinyere Okoh, Shuang Wu
+Data Science Project - Meng Cheng, Elizabeth Hocking, Christina Kim, Chinyere Okoh, Shuang Wu (alphabetical order)
 
 Measure for America are researching and writing the third edition to “A Portrait of California” in the midst of three global emergencies: the COVID-19 epidemic, an international economic downturn, and climate change; California will bear the brunt of all three of these historic pressures in the midst of a national movement to dismantle institutional racism.
 
